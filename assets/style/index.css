@@ -7,6 +7,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+.attribution, a{
+  text-align: center;
+  color: var(--color-text);
+  text-decoration: none;
+}
 ul, li{
   list-style: none;
 }
@@ -24,7 +29,6 @@ body{
   color: var(--color-text);
 }
 .content{
-  width: 18vw;
   background-color: var(--color-box);
   padding: 20px;
   border-radius: 16px;
@@ -86,13 +90,13 @@ body{
 }
 .quant_purple{
   display: flex;
+  justify-content: space-between;
+  flex-direction: row;
   margin: 24px 0;
-  gap: 6px;
 }
 .quant{
   color: var(--color-active);
   font-weight: 400;
-  margin-right: 28%;
 }
 .text{
   margin: 24px 0;
