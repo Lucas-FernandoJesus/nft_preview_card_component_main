@@ -1,0 +1,7 @@
+:root{
+  --color-background:hsl(217, 54%, 11%);
+  --color-box:hsl(216, 50%, 16%);
+  --color-name:hsl(0, 0%, 100%);
+  --color-text:hsl(215, 51%, 70%);
+  --color-active:hsl(178, 100%, 50%);
+}
